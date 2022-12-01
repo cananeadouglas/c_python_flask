@@ -1,0 +1,20 @@
+table 
+user: 
+    id
+    username
+    password
+    name
+    email
+
+table 
+post:
+    id
+    content
+    id_user
+
+table 
+follow:
+    id
+    id_user
+    id_follower
+
